@@ -39,13 +39,13 @@
     "@tanstack/react-query": "^5.62.8",
     "debug": "^4.4.0",
     "ethers": "^5.7.2",
-    "react": "^18.3.1",
+    "react": "^19.0.0",
     "viem": "^2.21.55"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/debug": "^4.1.12",
-    "@types/react": "^18.3.17",
+    "@types/react": "^19.0.2",
     "typescript": "^5.7.2"
   },
   "packageManager": "yarn@4.5.3"
