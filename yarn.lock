@@ -562,12 +562,12 @@ __metadata:
   linkType: hard
 
 "@pythnetwork/pyth-evm-js@npm:^1.76.0":
-  version: 1.76.0
-  resolution: "@pythnetwork/pyth-evm-js@npm:1.76.0"
+  version: 1.82.0
+  resolution: "@pythnetwork/pyth-evm-js@npm:1.82.0"
   dependencies:
     "@pythnetwork/price-service-client": "npm:1.9.0"
     buffer: "npm:^6.0.3"
-  checksum: 10/b747b6a48641939473926d729691dbe7f4a2f7e0e67ed136a44e23683d5bf6697f5b765718313f549587a7ec1f76fd5c3e2ef1efb4bf7a53e75f53daf609e42f
+  checksum: 10/fc17332b6fc8054fb79305771e7c85b22be432cb3bfe4f40d071f6e1d9f91f2c48f5898914cdca4b6070ec025dfa8c7b944e6adf66ff03349ee9e2b04dd375f9
   languageName: node
   linkType: hard
 
@@ -608,10 +608,10 @@ __metadata:
     "@synthetixio/v3-contracts": "npm:^7.15.0"
     "@tanstack/react-query": "npm:^5.62.8"
     "@types/debug": "npm:^4.1.12"
-    "@types/react": "npm:^18.3.17"
+    "@types/react": "npm:^19.0.2"
     debug: "npm:^4.4.0"
     ethers: "npm:^5.7.2"
-    react: "npm:^18.3.1"
+    react: "npm:^19.0.0"
     typescript: "npm:^5.7.2"
     viem: "npm:^2.21.55"
   languageName: unknown
@@ -667,20 +667,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*":
-  version: 15.7.12
-  resolution: "@types/prop-types@npm:15.7.12"
-  checksum: 10/ac16cc3d0a84431ffa5cfdf89579ad1e2269549f32ce0c769321fdd078f84db4fbe1b461ed5a1a496caf09e637c0e367d600c541435716a55b1d9713f5035dfe
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^18.3.17":
-  version: 18.3.17
-  resolution: "@types/react@npm:18.3.17"
+"@types/react@npm:^19.0.2":
+  version: 19.0.2
+  resolution: "@types/react@npm:19.0.2"
   dependencies:
-    "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/5ee199d31077984f130c1b191c9498a0951e2c3e9129794ddf2555dca39d40d50b453a5768c5b466f39b8e52818c160e9869e930a78795636ed281f38327d32d
+  checksum: 10/b355cfa22814e934b381c4f6de67c66652255377c3ddc6a757ea195ccbd0e7095aadfe1a28713d8ab1221222b8f2ec237903f4ec0e54eaf656ac832782d25dd2
   languageName: node
   linkType: hard
 
@@ -971,24 +963,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-tokens@npm:^3.0.0 || ^4.0.0":
-  version: 4.0.0
-  resolution: "js-tokens@npm:4.0.0"
-  checksum: 10/af37d0d913fb56aec6dc0074c163cc71cd23c0b8aad5c2350747b6721d37ba118af35abdd8b33c47ec2800de07dedb16a527ca9c530ee004093e04958bd0cbf2
-  languageName: node
-  linkType: hard
-
-"loose-envify@npm:^1.1.0":
-  version: 1.4.0
-  resolution: "loose-envify@npm:1.4.0"
-  dependencies:
-    js-tokens: "npm:^3.0.0 || ^4.0.0"
-  bin:
-    loose-envify: cli.js
-  checksum: 10/6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
-  languageName: node
-  linkType: hard
-
 "mime-db@npm:1.52.0":
   version: 1.52.0
   resolution: "mime-db@npm:1.52.0"
@@ -1053,12 +1027,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.3.1":
-  version: 18.3.1
-  resolution: "react@npm:18.3.1"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10/261137d3f3993eaa2368a83110466fc0e558bc2c7f7ae7ca52d94f03aac945f45146bd85e5f481044db1758a1dbb57879e2fcdd33924e2dde1bdc550ce73f7bf
+"react@npm:^19.0.0":
+  version: 19.0.0
+  resolution: "react@npm:19.0.0"
+  checksum: 10/2490969c503f644703c88990d20e4011fa6119ddeca451e9de48f6d7ab058d670d2852a5fcd3aa3cd90a923ab2815d532637bd4a814add402ae5c0d4f129ee71
   languageName: node
   linkType: hard
 
@@ -1111,8 +1083,8 @@ __metadata:
   linkType: hard
 
 "viem@npm:^2.21.55":
-  version: 2.21.55
-  resolution: "viem@npm:2.21.55"
+  version: 2.21.56
+  resolution: "viem@npm:2.21.56"
   dependencies:
     "@noble/curves": "npm:1.7.0"
     "@noble/hashes": "npm:1.6.1"
@@ -1128,7 +1100,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/4fbcac7d9c909b3807a49a271343f60d70f0f5c42dabc7971de3bed3f619a7bdfe6e9820457477131b0c4c59e4c8de8f36d562b0642534bb35fd1b4961ba5775
+  checksum: 10/03d3dbe5e1c90303a80c79eb532de486abfec1a9f88081a503c0ab3edebece115e4bab993cbb4ea69b080034653acaeff2321308ea6658a534fe9e91c8fc4ab0
   languageName: node
   linkType: hard
 
