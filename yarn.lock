@@ -624,21 +624,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.62.9":
-  version: 5.62.9
-  resolution: "@tanstack/query-core@npm:5.62.9"
-  checksum: 10/1a10a256d8c7da657d4c370f46bfc9f874bbaa201f5ef63f2d20f20eb5c9f515228c76e9b75e2510a78541a6dc2903cbb3e1495b81037585a67542d48839d977
+"@tanstack/query-core@npm:5.62.12":
+  version: 5.62.12
+  resolution: "@tanstack/query-core@npm:5.62.12"
+  checksum: 10/f1e1d58e509bf11eb20db81e6b20aaf8f22f6f362eb802429ba484bd2a903829e40527028f5ae87cbac61af7eb1eedd24bfceb305939fe2ad344667ad0bde42c
   languageName: node
   linkType: hard
 
 "@tanstack/react-query@npm:^5.62.8":
-  version: 5.62.11
-  resolution: "@tanstack/react-query@npm:5.62.11"
+  version: 5.62.12
+  resolution: "@tanstack/react-query@npm:5.62.12"
   dependencies:
-    "@tanstack/query-core": "npm:5.62.9"
+    "@tanstack/query-core": "npm:5.62.12"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10/3f2c372fb7fa656a4d61599657f6df3d8a9164ade866c456c2139f29fc991ee7fbe2dfcd6e1da87bff6583e528f4914c8f8cf209ece8219c20f2a8c661d98e13
+  checksum: 10/4c573dd9e64d91c8ffe9e87bdee8d1985eeac4067bb130dc98f86a2bc2ccd96a66b22175f8859a96c23a42f7e410b4ae98ab4a4994e01de88847cec51ccc4679
   languageName: node
   linkType: hard
 
@@ -1000,9 +1000,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ox@npm:0.4.4":
-  version: 0.4.4
-  resolution: "ox@npm:0.4.4"
+"ox@npm:0.6.0":
+  version: 0.6.0
+  resolution: "ox@npm:0.6.0"
   dependencies:
     "@adraffy/ens-normalize": "npm:^1.10.1"
     "@noble/curves": "npm:^1.6.0"
@@ -1016,7 +1016,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/7e6624a91b2064c160af1bde0febb8044a35a4353885afa1cf2993f4755cad5f485857469393455a4fce3f4bc0e95f18b3dd34d5f59fd07c25fcc7ddb3047bf4
+  checksum: 10/b089b2d09035def8d3f6d17ab1dd792fd7f1a4d8e008aa96bc50a8cef24ddb8e608ec828f4d83cf959b080a7c854921449e4d061f45f6dee944f48bd0971e60f
   languageName: node
   linkType: hard
 
@@ -1083,8 +1083,8 @@ __metadata:
   linkType: hard
 
 "viem@npm:^2.21.55":
-  version: 2.21.60
-  resolution: "viem@npm:2.21.60"
+  version: 2.22.2
+  resolution: "viem@npm:2.22.2"
   dependencies:
     "@noble/curves": "npm:1.7.0"
     "@noble/hashes": "npm:1.6.1"
@@ -1092,7 +1092,7 @@ __metadata:
     "@scure/bip39": "npm:1.5.0"
     abitype: "npm:1.0.7"
     isows: "npm:1.0.6"
-    ox: "npm:0.4.4"
+    ox: "npm:0.6.0"
     webauthn-p256: "npm:0.0.10"
     ws: "npm:8.18.0"
   peerDependencies:
@@ -1100,7 +1100,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/ba4eea4c3dda1e3b4942dd4e495f9fd996e860f5e552c7e25977683e97244314f81f4057e92b6d336ae451caf0c7eec8fc9747edb22433d558402efa26579e26
+  checksum: 10/374b37fdd4b1344e3a864434b20263f3f64536eef3142d4866fb971a7d204bfb1a12dc42c042b622b088fda6344e7f92f30be1e54bdcddb2d561bf1fad6c1c42
   languageName: node
   linkType: hard
 
